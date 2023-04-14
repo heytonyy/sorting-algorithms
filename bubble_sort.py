@@ -12,6 +12,6 @@ def bubble_sort(numbers):
 
 if __name__ == "__main__":
     # X random numbers between 0 and 10000
-    arr = np.random.randint(0, 10000, 10000)
+    arr = np.random.randint(0, 10000, 100)
     print(bubble_sort(arr))
     print("Done!")
